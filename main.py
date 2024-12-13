@@ -1,4 +1,4 @@
-#coding=utf-8
+#coding=utf-8 #1
 from telethon import TelegramClient, events, sync, errors
 from db import utils
 import socks,os,datetime
