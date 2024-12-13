@@ -66,7 +66,7 @@ jobs:
         context: .
         platforms: linux/amd64,linux/arm64
         push: true
-        tags: yha8897/keyword_alert_bot:latest
+        tags: gvstarsky/keyword_alert_bot:latest
     
     - name: Create release
       if: steps.file_check.outputs.updated == 'true'
